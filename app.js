@@ -6,9 +6,14 @@ let petras = [
     "https://lithuaniatribune.com/wp-content/uploads/2019/04/7448714.jpg"
 ];
 
-
+//loop for changing imgs
 const imgs = document.getElementsByTagName("img")
 for (let i = 0; i < imgs.length; i++){
     const randomImg = Math.floor(Math.random() * petras.length);
     img[i].src = petras[randomImg];
+}
+//loop for changing youtube channel names
+const chanelNames = document.getElementsByClassName("yt-simple-endpoint style-scope yt-formatted-string")
+for (let i = 0; i < chanelNames.length; i++){
+    a.innerText = "XXX";
 }
