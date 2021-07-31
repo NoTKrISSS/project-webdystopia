@@ -1,18 +1,22 @@
 {
-    "manifest_version": 3,
-    "name": "webdystopia",
-    "version": "1.0.0",
-    "content_scripts": [
-        {
-        "matches": ["<all_urls>"],
-        "js": ["content.js"],
-        "all_frames": true,
-        "run_at": "document_end"
+  "manifest_version": 3,
+  "name": "webdystopia",
+  "version": "1.0.0",
+  "icons": {
+    "16": "icon-16px.png",
+    "48": "icon-48px.png",
+    "128": "icon-128px.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "all_frames": true,
+      "run_at": "document_end"
     }
-    ],
-    "action": {
-        "default_popup": "popup.html",
-        "default_title": "WebDystopia"
-    }
-
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "WebDystopia"
+  }
 }
