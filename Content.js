@@ -13,7 +13,7 @@ for (let i = 0; i < imgs.length; i++){
     img[i].src = petras[randomImg];
 }
 //loop for changing youtube channel names
-const chanelNames = document.getElementsByClassName("yt-simple-endpoint style-scope yt-formatted-string")
+const chanelNames = document.getElementsByTagName("h2")
 for (let i = 0; i < chanelNames.length; i++){
     a.innerText = "XXX";
 }
