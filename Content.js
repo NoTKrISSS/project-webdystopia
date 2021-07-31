@@ -10,10 +10,5 @@ let petras = [
 const imgs = document.getElementsByTagName("img")
 for (let i = 0; i < imgs.length; i++){
     const randomImg = Math.floor(Math.random() * petras.length);
-    img[i].src = petras[randomImg];
-}
-//loop for changing youtube channel names
-const chanelNames = document.getElementsByTagName("h2")
-for (let i = 0; i < chanelNames.length; i++){
-    a.innerText = "XXX";
+    imgs[i].src = petras[randomImg];
 }
